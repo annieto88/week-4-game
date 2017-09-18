@@ -1,0 +1,72 @@
+body {
+	background-color: white;
+}
+
+h1{
+	background-color: orange;
+	color: white;
+	display:inline;
+	clear: both;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+
+#guessingNumber {
+	background-color: yellow;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	border: solid 1px #ddd
+}
+
+#scoreboard {
+	background-color: orange;
+	display:inline-block;
+	padding: 15px;
+	margin-top: 20px;
+	margin-left: 30px;
+	border: solid 1px #ddd;
+}
+
+#wrapper {
+	width: 100%
+	max-width:960px;
+	margin: 0 auto;
+}
+
+#instructions {
+	background-color: white;
+	width: 50%;
+	clear:both;
+	padding: 15px;
+	margin-top: 20px;
+	border: solid 1px #ddd
+}
+
+.crystalImage {
+	height: 111px;
+	border: solid 1px #272525;
+	margin-left: 20px
+}
+
+.crystalImage:firstchild {
+	margin-left: 0px;
+
+}
+
+#crystals {
+	margin-top: 15px;
+	margin-bottom:50px;
+
+}
+
+#totalScore {
+	margin-bottom: 50px;
+}
+
+#yts {
+	background: #009688;
+	display: inline;
+	padding: 50px;
+	border: solid 1px #ddd
+}
